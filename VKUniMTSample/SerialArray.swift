@@ -1,17 +1,16 @@
 //
-//  ThreadSafeArray.swift
+//  SerialArray.swift
 //  VKUniMTSample
 //
-//  Created by Dmitry Zakharov on 26/11/15.
+//  Created by Dmitry Zakharov on 28/11/15.
 //  Copyright © 2015 VKontakte. All rights reserved.
 //
 
 import Foundation
 
-
-public class ThreadSafeArray<TElement>: ThreadSafeArrayProtocol {
+public class SerialArray<TElement>: ThreadSafeArrayProtocol {
     private var array = [TElement]()
-    private let queue = dispatch_queue_create("ru.VKUniversity.ThreadSafeArrayQueue", DISPATCH_QUEUE_CONCURRENT)
+    private let queue = dispatch_queue_create("ru.VKUniversity.SerialArrayQueue", DISPATCH_QUEUE_SERIAL)
     
     public subscript(index: Int) -> TElement {
         get {
@@ -22,14 +21,14 @@ public class ThreadSafeArray<TElement>: ThreadSafeArrayProtocol {
             return result!
         }
         set {
-            dispatch_barrier_async(queue) {
+            dispatch_async(queue) {
                 self.array[index] = newValue
             }
         }
     }
     
     public func append(item: TElement) {
-        dispatch_barrier_async(queue) {
+        dispatch_async(queue) {
             self.array.append(item)
         }
     }

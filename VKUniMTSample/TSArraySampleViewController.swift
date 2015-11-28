@@ -32,7 +32,7 @@ internal class TSArraySampleViewController: BaseSampleViewController {
     }
     
     @IBAction func threadSafeTapped() {
-        let result = ThreadSafeArray<Int>() // SpinLockArray<Int>
+        let result = ThreadSafeArray<Int>() // SpinLockArray<Int>, SerialArray<Int>
         
         let group = dispatch_group_create()
         

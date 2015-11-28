@@ -19,6 +19,7 @@
 		F113785D1C0892A400A4D935 /* PCQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113785C1C0892A400A4D935 /* PCQueue.swift */; };
 		F113785F1C08BE4200A4D935 /* FileSystemSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113785E1C08BE4200A4D935 /* FileSystemSampleViewController.swift */; };
 		F18ADCEC1C09DCFC001C73EF /* GCDSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18ADCEB1C09DCFC001C73EF /* GCDSampleViewController.swift */; };
+		F18ADCEE1C09F427001C73EF /* SerialArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18ADCED1C09F427001C73EF /* SerialArray.swift */; };
 		F197F2291C071E6600C1C23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F197F2281C071E6600C1C23A /* AppDelegate.swift */; };
 		F197F22E1C071E6600C1C23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F197F22C1C071E6600C1C23A /* Main.storyboard */; };
 		F197F2301C071E6600C1C23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F197F22F1C071E6600C1C23A /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		F113785C1C0892A400A4D935 /* PCQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCQueue.swift; sourceTree = "<group>"; };
 		F113785E1C08BE4200A4D935 /* FileSystemSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemSampleViewController.swift; sourceTree = "<group>"; };
 		F18ADCEB1C09DCFC001C73EF /* GCDSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDSampleViewController.swift; sourceTree = "<group>"; };
+		F18ADCED1C09F427001C73EF /* SerialArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialArray.swift; sourceTree = "<group>"; };
 		F197F2251C071E6600C1C23A /* VKUniMTSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKUniMTSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F197F2281C071E6600C1C23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F197F22D1C071E6600C1C23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				F197F24B1C0773E900C1C23A /* ThreadSafeArray.swift */,
 				F197F24F1C0787C900C1C23A /* ThreadSafeArrayProtocol.swift */,
 				F197F2491C07614B00C1C23A /* TSArraySampleViewController.swift */,
+				F18ADCED1C09F427001C73EF /* SerialArray.swift */,
 			);
 			name = "ThreadSafe Array Sample";
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				F10BF11E1C090A5F00BC1686 /* FileProcessor.swift in Sources */,
 				F197F23C1C071F2100C1C23A /* SampleSelectionViewController.swift in Sources */,
 				F113785D1C0892A400A4D935 /* PCQueue.swift in Sources */,
+				F18ADCEE1C09F427001C73EF /* SerialArray.swift in Sources */,
 				F197F2461C07445900C1C23A /* Timer.swift in Sources */,
 				F197F2421C07203400C1C23A /* BaseSampleViewController.swift in Sources */,
 				F11378561C088B9C00A4D935 /* ProducerConsumerSampleViewController.swift in Sources */,
