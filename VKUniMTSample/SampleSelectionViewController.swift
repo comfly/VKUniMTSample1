@@ -15,7 +15,8 @@ class SampleSelectionViewController: UITableViewController {
         TSArraySampleViewController.sampleDescriptor,
         NSOperationQueueSampleViewController.sampleDescriptor,
         ProducerConsumerSampleViewController.sampleDescriptor,
-        FileSystemSampleViewController.sampleDescriptor
+        FileSystemSampleViewController.sampleDescriptor,
+        PromiseSampleViewController.sampleDescriptor
     ]
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
