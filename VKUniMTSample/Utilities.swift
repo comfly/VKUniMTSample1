@@ -32,6 +32,14 @@ public let DefaultNumberFormatter: NSNumberFormatter = {
     return formatter
 }()
 
+public let DefaultPercentFormatter: NSNumberFormatter = {
+    let formatter = NSNumberFormatter()
+    formatter.numberStyle = .PercentStyle
+    formatter.roundingMode = .RoundHalfEven
+    formatter.maximumFractionDigits = 1
+    return formatter
+}()
+
 public func generateRandomNumbers(count: Int) -> [Int] {
     var result = [Int](count: count, repeatedValue: 0)
     for var index = 0; index < count; ++index {

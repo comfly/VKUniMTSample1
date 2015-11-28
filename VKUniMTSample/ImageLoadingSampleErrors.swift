@@ -28,6 +28,7 @@ public let ApplicationDomain = "ru.VKUniversity.ApplicationErrorDomain"
 public enum Errors: Int {
     case ImageDataCorrupted = 1001,
          ImageNotLoaded,
-         QueueIsEmpty
+         QueueIsEmpty,
+         FileReadError
 }
 

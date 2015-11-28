@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10BF11E1C090A5F00BC1686 /* FileProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10BF11D1C090A5F00BC1686 /* FileProcessor.swift */; };
+		F10BF1201C091D5D00BC1686 /* mobydick.txt in Resources */ = {isa = PBXBuildFile; fileRef = F10BF11F1C091D5D00BC1686 /* mobydick.txt */; };
 		F113784A1C086EEF00A4D935 /* NSOperationQueueSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11378491C086EEF00A4D935 /* NSOperationQueueSampleViewController.swift */; };
 		F11378501C08726800A4D935 /* ImageLoadingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113784F1C08726800A4D935 /* ImageLoadingOperation.swift */; };
 		F11378521C08790600A4D935 /* ImageLoadingSampleErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11378511C08790600A4D935 /* ImageLoadingSampleErrors.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F10BF11D1C090A5F00BC1686 /* FileProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileProcessor.swift; sourceTree = "<group>"; };
+		F10BF11F1C091D5D00BC1686 /* mobydick.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mobydick.txt; sourceTree = "<group>"; };
 		F11378491C086EEF00A4D935 /* NSOperationQueueSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSOperationQueueSampleViewController.swift; sourceTree = "<group>"; };
 		F113784F1C08726800A4D935 /* ImageLoadingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoadingOperation.swift; sourceTree = "<group>"; };
 		F11378511C08790600A4D935 /* ImageLoadingSampleErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoadingSampleErrors.swift; sourceTree = "<group>"; };
@@ -105,7 +109,9 @@
 		F11378601C08BE6B00A4D935 /* File System Sample */ = {
 			isa = PBXGroup;
 			children = (
+				F10BF11F1C091D5D00BC1686 /* mobydick.txt */,
 				F113785E1C08BE4200A4D935 /* FileSystemSampleViewController.swift */,
+				F10BF11D1C090A5F00BC1686 /* FileProcessor.swift */,
 			);
 			name = "File System Sample";
 			sourceTree = "<group>";
@@ -215,6 +221,7 @@
 			files = (
 				F197F2301C071E6600C1C23A /* Assets.xcassets in Resources */,
 				F197F22E1C071E6600C1C23A /* Main.storyboard in Resources */,
+				F10BF1201C091D5D00BC1686 /* mobydick.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +236,7 @@
 				F11378501C08726800A4D935 /* ImageLoadingOperation.swift in Sources */,
 				F197F24E1C07855500C1C23A /* SpinLockArray.swift in Sources */,
 				F197F2291C071E6600C1C23A /* AppDelegate.swift in Sources */,
+				F10BF11E1C090A5F00BC1686 /* FileProcessor.swift in Sources */,
 				F197F23C1C071F2100C1C23A /* SampleSelectionViewController.swift in Sources */,
 				F113785D1C0892A400A4D935 /* PCQueue.swift in Sources */,
 				F197F2461C07445900C1C23A /* Timer.swift in Sources */,
