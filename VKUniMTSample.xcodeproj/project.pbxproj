@@ -18,6 +18,7 @@
 		F113785B1C08929700A4D935 /* PrimeNumberConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113785A1C08929700A4D935 /* PrimeNumberConsumer.swift */; };
 		F113785D1C0892A400A4D935 /* PCQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113785C1C0892A400A4D935 /* PCQueue.swift */; };
 		F113785F1C08BE4200A4D935 /* FileSystemSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F113785E1C08BE4200A4D935 /* FileSystemSampleViewController.swift */; };
+		F18ADCEC1C09DCFC001C73EF /* GCDSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18ADCEB1C09DCFC001C73EF /* GCDSampleViewController.swift */; };
 		F197F2291C071E6600C1C23A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F197F2281C071E6600C1C23A /* AppDelegate.swift */; };
 		F197F22E1C071E6600C1C23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F197F22C1C071E6600C1C23A /* Main.storyboard */; };
 		F197F2301C071E6600C1C23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F197F22F1C071E6600C1C23A /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		F113785A1C08929700A4D935 /* PrimeNumberConsumer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeNumberConsumer.swift; sourceTree = "<group>"; };
 		F113785C1C0892A400A4D935 /* PCQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCQueue.swift; sourceTree = "<group>"; };
 		F113785E1C08BE4200A4D935 /* FileSystemSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemSampleViewController.swift; sourceTree = "<group>"; };
+		F18ADCEB1C09DCFC001C73EF /* GCDSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDSampleViewController.swift; sourceTree = "<group>"; };
 		F197F2251C071E6600C1C23A /* VKUniMTSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKUniMTSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F197F2281C071E6600C1C23A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F197F22D1C071E6600C1C23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -151,9 +153,10 @@
 		F197F23A1C071E9D00C1C23A /* Samples */ = {
 			isa = PBXGroup;
 			children = (
-				F113784B1C086EFA00A4D935 /* ThreadSafe Array Sample */,
 				F197F2411C07203400C1C23A /* BaseSampleViewController.swift */,
+				F18ADCEB1C09DCFC001C73EF /* GCDSampleViewController.swift */,
 				F197F23F1C07202000C1C23A /* ApplyFunctionSampleViewController.swift */,
+				F113784B1C086EFA00A4D935 /* ThreadSafe Array Sample */,
 				F113784C1C08720600A4D935 /* Operation Queue Sample */,
 				F11378571C088DD700A4D935 /* Producer-Consumer Sample */,
 				F11378601C08BE6B00A4D935 /* File System Sample */,
@@ -245,6 +248,7 @@
 				F113785B1C08929700A4D935 /* PrimeNumberConsumer.swift in Sources */,
 				F197F24C1C0773E900C1C23A /* ThreadSafeArray.swift in Sources */,
 				F197F23E1C071FC500C1C23A /* SampleDescriptor.swift in Sources */,
+				F18ADCEC1C09DCFC001C73EF /* GCDSampleViewController.swift in Sources */,
 				F197F2481C075C8A00C1C23A /* Utilities.swift in Sources */,
 				F113784A1C086EEF00A4D935 /* NSOperationQueueSampleViewController.swift in Sources */,
 				F197F2401C07202000C1C23A /* ApplyFunctionSampleViewController.swift in Sources */,

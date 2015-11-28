@@ -10,6 +10,7 @@ import UIKit
 
 class SampleSelectionViewController: UITableViewController {
     private let samples = [
+        GCDSampleViewController.sampleDescriptor,
         ApplyFunctionSampleViewController.sampleDescriptor,
         TSArraySampleViewController.sampleDescriptor,
         NSOperationQueueSampleViewController.sampleDescriptor,

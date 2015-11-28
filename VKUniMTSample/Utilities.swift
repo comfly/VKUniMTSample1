@@ -32,6 +32,13 @@ public let DefaultNumberFormatter: NSNumberFormatter = {
     return formatter
 }()
 
+public let PreciseNumberFormatter: NSNumberFormatter = {
+    let formatter = NSNumberFormatter()
+    formatter.numberStyle = .DecimalStyle
+    formatter.maximumFractionDigits = 4
+    return formatter
+}()
+
 public let DefaultPercentFormatter: NSNumberFormatter = {
     let formatter = NSNumberFormatter()
     formatter.numberStyle = .PercentStyle
