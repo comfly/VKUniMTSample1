@@ -37,8 +37,9 @@ internal class TSArraySampleViewController: BaseSampleViewController {
         let group = dispatch_group_create()
         
         for var index = 0; index < numberOfItems; ++index {
+            let i = index
             runInGroup(group) {
-                result.append(index)
+                result.append(i)
             }
         }
         
